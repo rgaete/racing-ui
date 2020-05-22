@@ -5,6 +5,7 @@
   import HeroSlider from "../components/HeroSlider.svelte";
   import PushyPanel from "../components/PushyPanel.svelte";
   import ModalLogin from "../components/ModalLogin.svelte";
+  import Insta from "../components/Insta.svelte";
 </script>
 
 <div class="site-wrapper clearfix">

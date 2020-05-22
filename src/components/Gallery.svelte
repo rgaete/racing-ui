@@ -1,6 +1,19 @@
-<script>
+  <script>
   import Carousel from "@beyonk/svelte-carousel";
   import { ChevronLeftIcon, ChevronRightIcon } from "svelte-feather-icons";
+  import { Lightbox } from 'svelte-lightbox';
+
+     
+    //Include all titles of your images, this is also used as number that indicate count of sections
+    const gallery = [
+        'Cat is eating mouse',
+        'Bike is driven',
+        'JS components are downloaded from npm',
+        'This component is being developed'
+    ];
+    //Have to set to 0 (or image you wish to display as default), otherwise lightbox will not display
+    let activeImage = 0;
+    //END OF NON EXISTING FEATURE
 </script>
 
 <style>
@@ -19,7 +32,7 @@
               <h4>Nuestros recuerdos</h4>
             </header>
             <div class="card__content">
-              <Carousel>
+              <Carousel draggable = false >
                 <span class="control" slot="left-control">
                   <ChevronLeftIcon />
                 </span>
@@ -43,11 +56,9 @@
                     alt="quarta imagem"
                     src="assets/images/gallery/racing4.png" />
                 </div>
-                <div class="slide-content">
-                  <img
-                    alt="quinta imagem"
-                    src="assets/images/gallery/racing5.png" />
-                </div>
+                    <Lightbox {gallery} imageId="0" bind:activeImage>
+        <img src="assets/images/gallery/racing1.png" alt="Someone is having tough time">
+    </Lightbox>
                 <div class="slide-content">
                   <img
                     alt="quinta imagem"
@@ -64,3 +75,6 @@
     </div>
   </div>
 </div>
+
+ 
+    

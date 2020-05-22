@@ -1,7 +1,7 @@
 <script>
   import Footer from "../components/Footer.svelte";
   import Header from "../components/Header.svelte";
-  import Gallery from "../components/Gallery.svelte";
+  import Team from "../components/Team.svelte";
 </script>
 
 <div class="site-wrapper clearfix">
@@ -9,7 +9,7 @@
   <div id="root">
     <div id="home">
       <Header />
-      <Gallery />
+      <Team />
       <Footer />
     </div>
   </div>
