@@ -11,7 +11,7 @@
 <div class="custom-header">
   <div class="header-mobile clearfix" id="header-mobile">
     <div class="header-mobile__logo">
-      <a href="_soccer_index.html">
+      <a href="/">
         <img
           src="assets/images/soccer/logo.png"
           srcset="assets/images/soccer/logo@2x.png 2x"
@@ -41,14 +41,8 @@
               Tu Perfil
             </a>    
           </li>
-          <li class="nav-account__item nav-account__item--wishlist">
-            <a href="_soccer_shop-wishlist.html">
-              Mensajes
-              <span class="highlight">8</span>
-            </a>
-          </li>
           <li class="nav-account__item nav-account__item--logout">
-            <a href="_soccer_shop-login.html">Salir</a>
+            <a href="/login">Salir</a>
           </li>
         </ul>
       </div>
@@ -66,15 +60,6 @@
               info@racingfc.cl
             </a>
           </li>
-          <li class="info-block__item info-block__item--shopping-cart">
-            <a href="#" class="info-block__link-wrapper">
-              <div class="df-icon-stack df-icon-stack--bag">
-                <use xlink:href="assets/images/icons-basket.svg#bag" />
-              </div>
-              <h6 class="info-block__heading">Tus Cuotas</h6>
-              <span class="info-block__cart-sum">$256,30</span>
-            </a>
-          </li>
         </ul>
       </div>
     </div>
@@ -82,7 +67,7 @@
       <div class="container">
         <div class="header__primary-inner">
           <div class="header-logo">
-            <a href="index.html">
+            <a href="/">
               <img
                 src="assets/images/soccer/logo.png"
                 srcset="assets/images/soccer/logo@2x.png 2x"
@@ -99,7 +84,7 @@
                 <a href="/team">Nuestro Equipo</a>
               </li>
               <li class={stadingsClass}>
-                <a href="_soccer_team-overview.html">Estadísticas</a>
+                <a href="/">Estadísticas</a>
                 <!--
                 <ul class="main-nav__sub">
                   <li>
@@ -170,13 +155,13 @@
                 -->
               </li>
               <li class={scheduleClass}>
-                <a href="#">Programación</a>
+                <a href="/">Programación</a>
               </li>
               <li class={newsClass}>
-                <a href="#">Noticias</a>
+                <a href="/">Noticias</a>
               </li>
             </ul>
-            <a href="#" class="pushy-panel__toggle">
+            <a href="/" class="pushy-panel__toggle">
               <span class="pushy-panel__line" />
             </a>
           </nav>

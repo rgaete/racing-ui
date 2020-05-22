@@ -10,7 +10,8 @@
           </div>
         </div>
       </div>
-      <div class="hero-slider__item hero-slider__item--img2">
+      <!--
+    <div class="hero-slider__item hero-slider__item--img2">
         <div class="container hero-slider__item-container">
           <div class="row">
             <div class="col-md-8 offset-md-2">
@@ -56,6 +57,7 @@
           </div>
         </div>
       </div>
+      -->
     </div>
     <div class="hero-slider-thumbs-wrapper">
       <div class="container">

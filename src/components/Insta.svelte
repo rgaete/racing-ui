@@ -2,9 +2,6 @@
 </script>
 
 <style>
-  main {
-    height: 75vh;
-  }
 </style>
 
 <div class="custom-content">
