@@ -1,3 +1,13 @@
+<script>
+
+  export let indexClass = "";
+  export let teamClass = "";
+  export let scheduleClass = "";
+  export let stadingsClass = "";
+  export let newsClass = "";
+
+</script>
+
 <div class="custom-header">
   <div class="header-mobile clearfix" id="header-mobile">
     <div class="header-mobile__logo">
@@ -82,13 +92,13 @@
           </div>
           <nav class="main-nav clearfix">
             <ul class="main-nav__list">
-              <li class="active">
+              <li class={indexClass}>
                 <a href="/">Inicio</a>
               </li>
-              <li class="">
+              <li class={teamClass}>
                 <a href="/team">Nuestro Equipo</a>
               </li>
-              <li class="">
+              <li class={stadingsClass}>
                 <a href="_soccer_team-overview.html">Estadísticas</a>
                 <!--
                 <ul class="main-nav__sub">
@@ -159,36 +169,11 @@
                 </ul>
                 -->
               </li>
-              <li class="">
+              <li class={scheduleClass}>
                 <a href="#">Programación</a>
               </li>
-              <li class="">
+              <li class={newsClass}>
                 <a href="#">Noticias</a>
-              </li>
-            </ul>
-            <ul
-              class="social-links social-links--inline social-links--main-nav">
-              <li class="social-links__item">
-                <a
-                  href="#"
-                  class="social-links__link"
-                  data-toggle="tooltip"
-                  data-placement="bottom"
-                  title=""
-                  data-original-title="Facebook">
-                  <i class="fa fa fa-facebook" />
-                </a>
-              </li>
-              <li class="social-links__item">
-                <a
-                  href="#"
-                  class="social-links__link"
-                  data-toggle="tooltip"
-                  data-placement="bottom"
-                  title=""
-                  data-original-title="Twitter">
-                  <i class="fa fa fa-twitter" />
-                </a>
               </li>
             </ul>
             <a href="#" class="pushy-panel__toggle">

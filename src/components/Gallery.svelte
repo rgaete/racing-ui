@@ -22,8 +22,13 @@
                 </span>
                 <div class="slide-content">
                   <img
-                    alt="Racing 1"
-                    src="assets/images/gallery/racing1.jpg" />
+                    alt="terceira imagem"
+                    src="assets/images/gallery/racing3.jpg" />
+                </div>
+                <div class="slide-content">
+                  <img
+                    alt="quinta imagem"
+                    src="assets/images/gallery/racing6.jpg" />
                 </div>
                 <div class="slide-content">
                   <img
@@ -32,21 +37,18 @@
                 </div>
                 <div class="slide-content">
                   <img
-                    alt="terceira imagem"
-                    src="assets/images/gallery/racing3.jpg" />
+                    alt="quinta imagem"
+                    src="assets/images/gallery/racing8.jpg" />
                 </div>
-                <div class="slide-content">
-                  <img
-                    alt="quarta imagem"
-                    src="assets/images/gallery/racing4.jpg" />
-                </div>
-                  <img 
-                    src="assets/images/gallery/racing1.jpg" 
-                    alt="Someone is having tough time">
                 <div class="slide-content">
                   <img
                     alt="quinta imagem"
-                    src="assets/images/gallery/racing6.jpg" />
+                    src="assets/images/gallery/racing9.jpg" />
+                </div>
+                <div class="slide-content">
+                  <img
+                    alt="Racing 1"
+                    src="assets/images/gallery/racing1.jpg" />
                 </div>
                 <span class="control" slot="right-control">
                   <ChevronRightIcon />

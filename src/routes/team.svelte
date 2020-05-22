@@ -8,7 +8,7 @@
   <div class="site-overlay" />
   <div id="root">
     <div id="home">
-      <Header />
+      <Header teamClass = "active" />
       <Team />
       <Footer />
     </div>

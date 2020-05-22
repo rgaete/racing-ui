@@ -6,13 +6,15 @@
   import PushyPanel from "../components/PushyPanel.svelte";
   import ModalLogin from "../components/ModalLogin.svelte";
   import Insta from "../components/Insta.svelte";
+
+  Header.indexClass = "active";  
 </script>
 
 <div class="site-wrapper clearfix">
   <div class="site-overlay" />
   <div id="root">
     <div id="home">
-      <Header />
+      <Header indexClass = "active" />
       <PushyPanel />
       <HeroSlider />
       <News />
