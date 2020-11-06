@@ -1,3 +1,3 @@
-<main>
+<div class="site-wrapper clearfix">
 	<slot></slot>
-</main>
+</div>

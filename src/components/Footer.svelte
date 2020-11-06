@@ -17,7 +17,7 @@
         <div class="row">
           <div class="col-md-4">
             <div class="footer-copyright">
-              <a href="_soccer_index.html">Racing</a>
+              <a href="/">Racing</a>
               2018 &nbsp; | &nbsp; Todos los derechos reservados
             </div>
           </div>
@@ -26,19 +26,19 @@
               class="footer-nav footer-nav--right footer-nav--condensed
               footer-nav--sm">
               <li class="footer-nav__item">
-                <a href="_soccer_index.html">Inicio</a>
+                <a href="/">Inicio</a>
               </li>
               <li class="footer-nav__item">
-                <a href="_soccer_team-overview.html">Nuestro Equipo</a>
+                <a href="/team">Nuestro Equipo</a>
               </li>
               <li class="footer-nav__item">
-                <a href="_soccer_team-standings.html">Estadísticas</a>
+                <a href="/">Estadísticas</a>
               </li>
               <li class="footer-nav__item">
-                <a href="_soccer_shop-grid.html">Programación</a>
+                <a href="/">Programación</a>
               </li>
               <li class="footer-nav__item">
-                <a href="_soccer_blog-3.html">Noticias</a>
+                <a href="/">Noticias</a>
               </li>
             </ul>
           </div>

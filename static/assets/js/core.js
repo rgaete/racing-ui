@@ -248,7 +248,7 @@
 
 		return this.each(function() {
 			if( !(getCookie()) ) {
-				//createContainer();
+				createContainer();
 				getImages(this);
 				preloading();
 			}

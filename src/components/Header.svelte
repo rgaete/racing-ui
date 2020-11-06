@@ -5,6 +5,7 @@
   export let scheduleClass = "";
   export let stadingsClass = "";
   export let newsClass = "";
+  export let page = "/";
 
 </script>
 
@@ -15,7 +16,7 @@
         <img
           src="assets/images/soccer/logo.png"
           srcset="assets/images/soccer/logo@2x.png 2x"
-          alt="Alchemists"
+          alt="Racing"
           class="header-mobile__logo-img" />
       </a>
     </div>
@@ -161,9 +162,6 @@
                 <a href="/">Noticias</a>
               </li>
             </ul>
-            <a href="/" class="pushy-panel__toggle">
-              <span class="pushy-panel__line" />
-            </a>
           </nav>
         </div>
       </div>
